@@ -1,0 +1,154 @@
+/* media query */
+@media (max-width: 720px) {
+   /* (max-height: 480px) and */
+  html{
+    width: 100%;
+  }
+   header {
+    position: relative;
+  }
+  .header_logo {
+    position: absolute;
+    top: 10px;
+    background: none;
+  }
+
+  .header_logo img{
+    height: 20%;
+  }
+
+  .header_info {
+    height: 8em;
+    background-position: center;
+  }
+
+  .header_info h1 {
+    display: none;
+  }
+
+  .header_info p {
+    display: none;
+
+  }
+  main {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .main_centro {
+    width: 100%;
+  }
+  
+  .main_nav {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+  }
+  
+  .main_nav h3 {
+    padding: 0px;
+    margin: 0px;
+  }
+  .main_nav ul {
+    display: none;
+  }
+
+  .conteudo{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+  }
+
+  .main_vitrine {
+    width: 90%;
+    gap: 20px;
+    padding: 0px;
+  }
+
+  .main_card {
+    height: 32vh;
+    width: 100%;
+  }
+
+  .main_card_top {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 0px;
+  }
+
+  .main_card_top h2 {
+    font-size: 2em;
+    font-weight: 200;
+  }
+
+  .main_card_bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+  }
+
+  .main_card_bottom p {
+    display: none;
+  }
+
+  .main_card_bottom button {
+    font-size: 1.2rem;
+    margin: 0px;
+    border: solid 2px #ffffff;
+    border-radius: 16px;
+    background-color: rgba(13, 13, 13, 0.1);
+    transition: ease-in-out 0.2s;
+  }
+
+  .main_card_bottom button:hover {
+    text-decoration: none;
+    background-color: rgba(13, 13, 13, 1);
+  }
+  .main_card_bottom button:active {
+    color: #0d0d0d;
+    background-color: #ffffff;
+  }
+
+  .main_playlist {
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    
+  }
+
+  .main_playlist h3 {
+    margin: 2rem 0px;
+  }
+
+  .playlist_li {
+    justify-content: center;
+    width: 100%;
+  }
+  .playlist_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    width: 12em;
+  }
+
+  .playlist_main_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+  }
+
+  .playlist_main_bottom {
+
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 10px;
+  }
+
+  .playlist_main_bottom img{display:none;}
+}
