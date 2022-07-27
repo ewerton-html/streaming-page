@@ -89,7 +89,7 @@ main {
   background-color: #ffffff;
 }
 
-.conteudo {
+.contents {
   display: flex;
   flex-direction: row;
   width: 100%;
